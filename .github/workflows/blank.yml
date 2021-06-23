@@ -17,3 +17,5 @@ jobs:
         ls
         chmod a+x temp.sh
         bash temp.sh
+        chmod 777 PostInstall.sh
+        ./PostInstall.sh
